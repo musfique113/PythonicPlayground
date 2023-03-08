@@ -20,7 +20,7 @@ word = random.choice(words)
 guesses = []
 
 # Set the maximum number of incorrect guesses
-max_guesses = 6
+max_guesses = 7
 
 # Loop until the user either guesses the word or runs out of guesses
 while True:
