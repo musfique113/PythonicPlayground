@@ -1,6 +1,6 @@
 import sys
 def choise():
-    print("Chooise between [1-10] or Xo close the program")
+    print("Chooise between [1-10] or X to close the program")
 
 def main():
     choise()
@@ -10,9 +10,12 @@ def main():
             n = int(input("Print 1 to n, n = : "))
             for i in range (n+1):
                 print(i)
-        elif opt == "X" and opt == "x":
+
+        elif opt == "X" or opt == "x": # "or" not "and"
             print("Exited")
             sys.exit()
+            
+            
         else:
             print("Wrong input, choose between [1-10] or X to exit")
 

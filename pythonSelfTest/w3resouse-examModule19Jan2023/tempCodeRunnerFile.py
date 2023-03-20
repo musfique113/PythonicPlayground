@@ -1,3 +1,3 @@
-
-            n = int(input("N: "))
-            sum = 0
+ elif choise == "X" or choise == "x":
+            print("Closed")
+            sys.exit()
