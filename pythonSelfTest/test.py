@@ -14,6 +14,11 @@ def main():
         elif opt == "X" or opt == "x": # "or" not "and"
             print("Exited")
             sys.exit()
+
+        elif opt == "2":
+            n = int(input("Table of : "))
+            for i in range(1,11):
+                print(i, "x" , n , "=", i*n)
             
             
         else:
