@@ -14,13 +14,25 @@ def main():
         elif opt == "X" or opt == "x": # "or" not "and"
             print("Exited")
             sys.exit()
+        
+        elif opt == "4":
+            str = input("Input your string: ")
+            s = ""
+            for char in str:
+                s = char + s
+                print(s)
 
         elif opt == "2":
             n = int(input("Table of : "))
             for i in range(1,11):
                 print(i, "x" , n , "=", i*n)
-            
-            
+
+        elif opt == "3":
+            n = int(input("Factorial of: "))
+            fact = 1
+            for i in range(1, n+1):
+                fact *= i
+                print(fact)     
         else:
             print("Wrong input, choose between [1-10] or X to exit")
 
