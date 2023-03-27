@@ -38,7 +38,14 @@ def main():
             fact = 1
             for i in range(1 ,n+1):
                 fact *= i
-                print(fact)   
+                print(fact) 
+
+        elif opt == "6":
+            n = int(input("N: "))
+            sum = 0
+            for i in range(n):
+                sum += 1 + i
+                print(sum)
         else:
             print("Wrong input, choose between [1-10] or X to exit")
 
