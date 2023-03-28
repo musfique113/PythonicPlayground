@@ -1,6 +1,6 @@
 import sys
 def choise():
-    print("Chooise between [1-10] or X to close the program")
+    print("Chooise between [1-10] or X to close the program: ")
 
 def main():
     choise()
