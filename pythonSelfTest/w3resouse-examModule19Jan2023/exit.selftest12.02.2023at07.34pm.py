@@ -52,8 +52,8 @@ def main():
             for i in range(n):
                 print(a)
                 a, b = b, a + b
-    else:
-        print("Wrong input!!\nChoose between [1-6]")
+        else:
+            print("Wrong input!!\nChoose between [1-6]")
 
 if __name__ == "__main__":
     main()

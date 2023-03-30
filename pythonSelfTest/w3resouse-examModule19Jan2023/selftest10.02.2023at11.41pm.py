@@ -12,8 +12,8 @@ def main():
         choise = int(input("Enter choise: "))
         if choise == 1:
             N = int(input("N: "))
-            for i in range(N):
-                print(i+1)
+            for i in range(N+1):
+                print(i)
         elif choise == 6:
             print("Programme closed")
             sys.exit()
