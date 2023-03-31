@@ -17,6 +17,10 @@ def main():
         elif choise == "x" or choise == "X":
             print("Program Closed")
             sys.exit()
+        elif choise == "2":
+            n = int(input("Table of : "))
+            for i in range(1,11):
+                print(n,"X",i,"=",n*i)
         else :
             print("Wrong Input")
 
