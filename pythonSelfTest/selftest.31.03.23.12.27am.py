@@ -21,6 +21,12 @@ def main():
             n = int(input("Table of : "))
             for i in range(1,11):
                 print(n,"X",i,"=",n*i)
+        elif choise == "3":
+            n = int(input("Factorial of : "))
+            fact = 1
+            for i in range (1,n+1):
+                fact *= i
+                print(fact)
         else :
             print("Wrong Input")
 
