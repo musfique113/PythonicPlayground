@@ -10,9 +10,9 @@
 #     sum += i+1
 # print(sum)
 #Multiplication table
-# n = int(input("table"))
-# for i in range(1,11):
-#     print(n,"x",i,"=",n*i)
+n = int(input("table"))
+for i in range(1,11):
+    print(n,"x",i,"=",n*i)
 #Reverse a string: Write a program that takes a string as input and reverses it.
 str = input("Give a string: ")
 s = ""
