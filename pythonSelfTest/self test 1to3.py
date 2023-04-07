@@ -19,3 +19,4 @@ s = ""
 for char in str:
     s = char + s
 print(s)
+# this is a self test code
