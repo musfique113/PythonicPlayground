@@ -4,27 +4,36 @@ import statistics
 def get_numbers():
     numbers = []
     while True:
+        num = input("Enter a number (or 'done' to finish): ")
+        if num == 'done':
+            break
         try:
-            num = float(input("Enter a number (or 'done' to finish): "))
+            num = float(num)
             numbers.append(num)
         except ValueError:
             print("Invalid input. Please enter a number or 'done' to finish.")
-        else:
-            if num == 'done':
-                break
     return numbers
 
 # Get numbers from the user
 numbers = get_numbers()
 
-# Calculate mean
-mean = statistics.mean(numbers)
-print("Mean: ", mean)
+# Check if the list of numbers is empty
+if not numbers:
+    print("No numbers entered.")
+else:
+    # Calculate mean
+    mean = statistics.mean(numbers)
+    print("Mean: ", mean)
 
-# Calculate median
-median = statistics.median(numbers)
-print("Median: ", median)
+    # Calculate median
+    median = statistics.median(numbers)
+    print("Median: ", median)
 
-# Calculate mode
-mode = statistics.mode(numbers)
-print("Mode: ", mode)
+    # Calculate mode
+    try:
+        mode = statistics.mode(numbers)
+        print("Mode: ", mode)
+    except statistics.StatisticsError as e:
+        print("Mode: No mode found.")
+
+
