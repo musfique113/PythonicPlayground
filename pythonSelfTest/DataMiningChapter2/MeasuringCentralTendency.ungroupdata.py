@@ -36,4 +36,6 @@ else:
     except statistics.StatisticsError as e:
         print("Mode: No mode found.")
 
-
+    # Calculate standard deviation
+    stdev = statistics.stdev(numbers)
+    print("Standard Deviation: ", stdev)
