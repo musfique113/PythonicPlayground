@@ -60,5 +60,5 @@ else:
             ["Standard Deviation", stdev],
             ["Variance", variance]]
     headers = ["Statistic", "Value"]
-    print("Calculated Statistics:")
+    print("Calculated Statistics are:")
     print(tabulate(data, headers=headers, tablefmt="grid"))
