@@ -1,0 +1,36 @@
+
+    <LinearLayout
+        android:id="@+id/thirdLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <!-- place one TextView and one EditText inside layout using weight property -->
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0.6"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="Password"
+            android:textColor="@color/blackColor" />
+
+        <EditText
+            android:inputType="textPassword"
+            android:id="@+id/upid"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1.4"
+            android:background="@color/editTextBack"
+            android:hint="Password"
+            android:imeOptions="actionNext"
+            android:paddingLeft="10dp"
+            android:singleLine="true"
+            android:textColor="@color/blackColor" />
+    </LinearLayout>
+    <!-- fourth Child Layout -->
