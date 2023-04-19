@@ -4,6 +4,6 @@ INPUT: 1        OUTPUT: 1
 INPUT: -1        OUTPUT: 1
 '''
 
-value = int(input('Enter any numbe - '))
+value = int(input('Enter any numbeber '))
 #abs(value)
 print(abs(value))
