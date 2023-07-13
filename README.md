@@ -1,6 +1,6 @@
 # *PythonicPlayground*
 
-Welcome to PythonicPlayground! This repository is a collection of Python programming and Jupyter notebooks where I practice data mining and data analysis using Python.
+Welcome to PythonicPlayground ! This repository is a collection of Python programming and Jupyter notebooks where I practice data mining and data analysis using Python.
 
 ## About
 
