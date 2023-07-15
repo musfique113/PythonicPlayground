@@ -28,7 +28,7 @@ A, B = 0, 0  # rotating animation
 theta_spacing = 10
 phi_spacing = 1 # for faster rotation change to 2, 3 or more, but first change 86, 87 lines as commented
 
-chars = ".,-~:;=!*#$@"  # luminance index
+chars = "quhfdasfasuifgasdfigasfasbdkfhasgf"  # luminance index
 
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 
@@ -45,9 +45,9 @@ def text_display(letter, x_start, y_start):
     text = font.render(str(letter), True, hsv2rgb(hue, 1, 1))
     display_surface.blit(text, (x_start, y_start))
 
-# def text_display(letter, x_start, y_start):
-#     text = font.render(str(letter), True, white)
-#     display_surface.blit(text, (x_start, y_start))
+def text_display(letter, x_start, y_start):
+    text = font.render(str(letter), True, white)
+    display_surface.blit(text, (x_start, y_start))
 
 
 run = True
